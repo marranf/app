@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 include ('autoload.php'); 
 $db=include ('core/dbconnect.php');
 session_start();
@@ -20,6 +20,7 @@ app\core\Router::Run($data);
 
 
 /*
+выложил -> http://marran.zzz.com.ua
  * Необходимо создать приложение-задачник.
 Задачи состоят из:
 - имени пользователя;
